@@ -1,0 +1,88 @@
+Reference:
+https://www.youtube.com/watch?v=QGqFqNhBJ9g&list=PLDhScTEBdP8yJ6fiEbCkI4MEofauCd0hV&index=3
+
+https://www.udemy.com/course/amazon-eks-starter-kubernetes-on-aws/
+
+devopsschool	
+https://www.udemy.com/course/kubernetes-on-aws-using-amazon-eks/	
+
+Recap (Following is a recap - it is expected that you already know this)
+	Virtualization
+	Containerization
+	Orchestration
+	Kubernetes
+		
+Introduction to Amazon EKS
+	How EKS works?
+	EKS kubernetes clusters
+		Control Plain
+		Worker Nodes
+	EKS Storage
+	EKS Load Balancing and Ingress
+	EKS Networking
+	EKS Cluster Authentication
+	EKS Security Policy
+	
+Getting started
+	Step 1: Pre-requisit
+		AWS CLI 
+		Kubectl 
+		AWS-IAM-Authenticator
+		
+	Step 2: Create EKS role	
+	Step 3: Create VPC for EKS
+	
+	Step 4: Create EKS cluster
+	Step 5: Add Kubernetes worker nodes
+	Step 6: Deploy an app on Kubernetes
+	
+	eksctl
+	AWS Console
+	
+Clusters
+	Updating Kubernetes Version
+	Cluster Endpoint Access
+	Control Plane Logging
+	Using a EKS Cluster	
+	
+Using EKS Clusters
+	Working with Deployment
+	Working with Services
+	
+Storage
+	Storage Classes
+	awsElasticBlockStore
+	nfs using efs
+	
+Load Balancing and Ingress
+	Load Balancing
+	ALB Ingress Controller on Amazon EKS
+	
+Networking
+	Creating a VPC for Amazon EKS
+	Cluster VPC Considerations
+	Cluster Security Group Considerations
+	Pod Networking
+	CNI Configuration Variables
+	Installing CoreDNS
+	External SNAT
+	CNI Custom Networking
+	CNI Upgrades
+	Installing Calico on Amazon EKS
+
+Security
+	Pod Security Policy
+	Identity and Access Management
+	Logging and Monitoring
+	Compliance Validation
+	Resilience
+	Infrastructure Security
+	Configuration and Vulnerability Analysis
+	
+Advance EKS topics	
+	eksctl deep dive
+	Deploy Kubernetes Dashboard
+	CloudTrail Integration
+	Troubleshooting
+	AWS EKS Service Limits	
+	
